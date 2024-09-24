@@ -7,7 +7,7 @@ export default class Parent extends LightningElement {
 
   get options() {
     return [
-      { label: "Show input name", value: "name" },
+      { label: "Show input name", value: "name" }, //12195
       { label: "Show input phone", value: "phone" },
       { label: "Show input email", value: "email" }
     ];
