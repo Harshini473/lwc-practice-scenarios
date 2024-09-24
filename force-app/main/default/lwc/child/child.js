@@ -1,6 +1,6 @@
 import { LightningElement, api } from "lwc";
 
-export default class Child extends LightningElement {
+export default class Child extends LightningElement { //12195
   @api selectedItem;
 
   // Getter to show or hide name input based on selected item
